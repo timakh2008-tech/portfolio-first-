@@ -1,0 +1,95 @@
+@import url( reset.css);
+
+
+body{
+    font-family: "Poppins" , sans-serif;
+    background: #0C151D;
+    color: #fff;
+    font-size: 22px;
+}
+.container{
+    width: 1230px;
+    margin: 0 auto;
+}
+
+.subtitle{
+    font-size: 37px;
+}
+
+.header{
+    text-align: center;
+    padding: 36px 0 82px;
+}
+
+.header-photo{
+    background: red;
+    width: 215px;
+    height: 215px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 6px solid #FFE071;
+}
+
+.header-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-title{
+    margin: 30px 0 0;
+    font-weight: 500;
+    font-size: 46px;
+    color: #f1f2f4;
+}
+
+.header-title+p{
+    color: #A3ABB2;
+    margin: 10px 0 0;
+}
+
+.portfolio-cards{
+    font-size: 0;
+    margin: 0 -15px;
+}
+
+.portfolio-card{
+    width: 33.333%;
+    height: 226px;
+    display: inline-block;
+    font-size: 22px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.portfolio-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+.header-links{
+    margin-top: 40px;
+}
+
+.header-links a{
+    color: #000;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #FFE071;
+    display: inline-block;
+    font-size: 22px;
+}
+
+.header-links a:hover{
+    background: #A3ABB2;
+}
+
+.header-links a+a{
+    margin-left: 25px;
+}
