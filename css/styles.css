@@ -93,3 +93,35 @@ body{
 .header-links a+a{
     margin-left: 25px;
 }
+
+.float-cards{
+    margin: 0 -15px;
+}
+
+.float-card{
+    width: 1230px;
+    text-align: center;
+    float: left;
+}
+
+.float-card>div{
+    background: #ccc;
+}
+
+.float-card a{
+    color: orange;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.float-card-title{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.float-card-image{
+    display: block;
+}
